@@ -1,0 +1,49 @@
+.search-input {
+  width: 400px;
+  height: 50px;
+  overflow: hidden;
+  border: 1px solid rgba(#213f7d, 0.2);
+  border-radius: 25px;
+  min-width: 348px;
+  display: flex;
+
+  .input {
+    width: calc(100% - 56px);
+    height: 100%;
+
+    .search-input-content {
+      padding: 12px 20px;
+      border: none;
+      outline: none;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      color: black;
+      font-size: 14px;
+      gap:10px;
+      display: flex;
+      align-items: center;
+
+      .line {
+        background-color: rgba(#545f7d, 0.2);
+        width: 1px;
+        height: 27px;
+
+      }
+      p{
+          color: #545f7d;
+      }
+    } 
+    
+  }
+
+  button {
+    border: none;
+    background: red;
+    height: 80%;
+    border-radius: 60px;
+    width: 40px;
+    margin: 4px 10px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,26 @@
+.nav-wapper {
+  height: 80px;
+  position: fixed;
+  background-color: #ffff;
+  width: 100%;
+  z-index: 100;
+
+  .nav-content{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    // position: relative;
+    width: 100%;
+    z-index: 1;
+
+    .button-container{
+        display: flex;
+        gap: 20px;
+
+
+   
+
+  }
+}
+}
