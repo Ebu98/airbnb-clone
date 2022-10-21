@@ -1,0 +1,13 @@
+.card-list {
+  // display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 18.5px;
+  margin: 40px 0;
+  overflow: hidden;
+  flex-wrap: wrap;
+
+  @media only screen and (min-width: 1440px) {
+    gap: 25px;
+  }
+}

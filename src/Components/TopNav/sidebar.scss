@@ -1,0 +1,21 @@
+.sidebar-container {
+  height: 80px;
+  // position: fixed;
+  background-color: #ffff;
+  width: 100%;
+
+  .table-wraper {
+    display: flex;
+    // margin: 15px 20px;
+    padding: 20px 0;
+    gap: 20px;
+    white-space: nowrap;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  
+}
