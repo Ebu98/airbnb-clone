@@ -1,6 +1,7 @@
 export { ReactComponent as SearchIcon } from "./search.svg";
 
 export { ReactComponent as ImageOne } from "./image.svg";
+export { default as buildings } from "./nine.jpeg";
 
 // export { ReactComponent as One } from "./one.svg";
 // export { ReactComponent as Two } from "./two.svg";

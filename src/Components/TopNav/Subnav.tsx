@@ -101,7 +101,7 @@ const Subnav = () => {
             return (
                 <div>
                   <div>
-                    <Icon/>
+                    <Icon />
                   </div>
                   <p>{text}</p>
                 </div>
