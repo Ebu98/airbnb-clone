@@ -12,7 +12,7 @@
     font-family: "Work Sans";
     display: flex;
     justify-content: space-between;
-    gap:30px;
+    gap: 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -52,19 +52,19 @@
     text-transform: uppercase;
     color: black;
   }
-.like-container{
-  display: flex;
-  gap: 5px;
-  
-  .btn{
-    
-  position: absolute;
-  top:25px;
-  right: 1px;
-    img{
-      width: 20px;
-      height: 20px;
+  .like-container {
+    display: flex;
+    gap: 5px;
+
+    .btn {
+      cursor: pointer;
+      position: absolute;
+      top: 25px;
+      right: 1px;
+      img {
+        width: 20px;
+        height: 20px;
+      }
     }
   }
-}
 }

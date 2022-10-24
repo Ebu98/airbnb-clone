@@ -2,6 +2,7 @@ import React from "react";
 import Search from "../Input/search";
 import user from "../../assets/image/user-profile.png";
 import Menu from "../../assets/image/menu.png";
+import World from "../../assets/image/icon-world.png";
 import "./Topnav.scss";
 
 const Topnav = () => {
@@ -14,8 +15,8 @@ const Topnav = () => {
           <div>
             <div className="right-content">
               <div className="text-host">Become a Host</div>
-              <div>
-              <i className="fa-sharp fa-solid fa-globe"></i>
+              <div className="world-icon">
+              <img src={World} alt=""/>
               </div>
               <div className="profile-image">
                 {" "}

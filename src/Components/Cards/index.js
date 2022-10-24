@@ -1,6 +1,4 @@
-// import React from "react";
 import React, { useState } from "react";
-// import Red from "../../assets/image/heart-red.png";
 import Black from "../../assets/image/heart-black.png";
 
 import "./card.scss";
@@ -8,22 +6,20 @@ import "./card.scss";
 const Card = ({ icon, subtitle, date, day, title, amount }) => {
   const [isLiked, updateLike] = useState(false);
 
-    const handleLike=() =>{
-      if (!isLiked) {
+  const handleLike = () => {
+    if (!isLiked) {
       updateLike(true);
     } else {
       updateLike(false);
-        }
-      }
+    }
+  };
   return (
     <div className="custom-card">
       <div>
         <div className="like-container">
-          <div
-          className="btn"
-            onClick={handleLike}
-            disabled={!isLiked}
-          ><img src={Black} alt=""/></div>
+          <div className="btn" onClick={handleLike} disabled={!isLiked}>
+            <img src={Black} alt="" />
+          </div>
         </div>
         <p>{isLiked ? "liked" : "disliked"} </p>
       </div>
