@@ -25,13 +25,13 @@ import "./cardList.scss";
 function CardList() {
   return (
     <div className="card-list">
-      <Card icon={ImageOne}  title="Active Users" subtitle="3,041 kilometers away" date="Non 1-6" day="night"amount="2,453" />
+      <Card icon={ImageOne}  title="Marakesh,Morocco" subtitle="3,041 kilometers away" date="Non 1-6" day="night"amount="2,453" />
       <Card icon={Six} title="Users with Loans" subtitle="3,041 kilometers away" date="Feb 2-3" day="night"amount="12,453" />
-      <Card icon={Ten}  title="Active Users" subtitle="3,041 kilometers away" date="Jan 2 -Dec 3" day="night"amount="2,453" />
+      <Card icon={Ten}  title="Marakesh,Morocco" subtitle="3,041 kilometers away" date="Jan 2 -Dec 3" day="night"amount="2,453" />
       <Card icon={Fours} title="Users with Loans" subtitle="3,041 kilometers away" date="Jun 9 -7" day="night"amount="12,453" />
-      <Card icon={Five}  title="Active Users" subtitle="3,041 kilometers away" date="Mar 3" day="night"amount="2,453" />
+      <Card icon={Five}  title="Marakesh,Morocco" subtitle="3,041 kilometers away" date="Mar 3" day="night"amount="2,453" />
       <Card icon={Seven} title="Users with Loans" subtitle="3,041 kilometers away" date="Jul 9" day="night"amount="12,453" />
-      <Card icon={Eight}  title="Active Users" subtitle="3,041 kilometers away" date="Dec 10" day="night"amount="2,453" />
+      <Card icon={Eight}  title="Marakesh,Morocco" subtitle="3,041 kilometers away" date="Dec 10" day="night"amount="2,453" />
       <Card icon={Two} title="Users with Loans" subtitle="3,041 kilometers away" date="Jan 23 - 30" day="night"amount="12,453" />
       <Card icon={Three}  title="Active Users" subtitle="3,041 kilometers away" date="Nov 2 -4" day="night"amount="2,453" />
       <Card icon={Flawer} title="Users with Loans" subtitle="3,041 kilometers away" date="Nov 2 -4" day="night"amount="12,453" />
@@ -39,7 +39,7 @@ function CardList() {
       <Card icon={Four} title="Users with Loans" subtitle="3,041 kilometers away" date="Dec 23-25" day="night"amount="12,453" />
       <Card icon={Beach}  title="Active Users" subtitle="3,041 kilometers away" date="Dec 23-25" day="night"amount="2,453" />
       <Card icon={Tall} title="Users with Loans" subtitle="3,041 kilometers away" date="Nov 2 -4" day="night"amount="12,453" />
-      <Card icon={Four}  title="Active Users" subtitle="3,041 kilometers away" date="Dec 23-25" day="night"amount="2,453" />
+      <Card icon={Four}  title="Tias,Spain" subtitle="3,041 kilometers away" date="Dec 23-25" day="night"amount="2,453" />
       <Card icon={Phone} title="Users with Loans" subtitle="3,041 kilometers away" date="Dec 23-25" day="night"amount="12,453" />
       <Card icon={Seven} title="Users with Loans" subtitle="3,041 kilometers away" date="Jan 23 - 30" day="night"amount="12,453" />
       <Card icon={Fours} title="Users with Loans" subtitle="3,041 kilometers away" date="Jun 9 -7" day="night"amount="12,453" />

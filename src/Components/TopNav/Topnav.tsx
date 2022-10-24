@@ -13,7 +13,7 @@ const Topnav = () => {
           <Search />
           <div>
             <div className="right-content">
-              <div>Become a Host</div>
+              <div className="text-host">Become a Host</div>
               <div>
               <i className="fa-sharp fa-solid fa-globe"></i>
               </div>
